@@ -1,0 +1,20 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "harga"
+    label: "Harga Emas Hari Ini"
+    files:
+      - file: "data/harga.json"
+        label: "Daftar Harga Antam"
+        name: "harga_antam"
+        fields:
+          - { label: "Antam 0.5 Gram (Rp)", name: "antam_05g", widget: "string", default: "Rp 700.000" }
+          - { label: "Antam 1 Gram (Rp)", name: "antam_1g", widget: "string", default: "Rp 1.300.000" }
+          - { label: "Antam 2 Gram (Rp)", name: "antam_2g", widget: "string", default: "Rp 2.540.000" }
+          - { label: "Antam 3 Gram (Rp)", name: "antam_3g", widget: "string", default: "Rp 3.780.000" }
+          - { label: "Antam 5 Gram (Rp)", name: "antam_5g", widget: "string", default: "Rp 6.250.000" }
