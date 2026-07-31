@@ -10,7 +10,7 @@ collections:
     label: "Harga Emas Hari Ini"
     files:
       - file: "data/harga.json"
-        label: "Daftar Harga Antam"
+        label: "Daftar Harga Antam Lengkap"
         name: "harga_antam"
         fields:
           - { label: "Antam 0.5 Gram (Rp)", name: "antam_05g", widget: "string", default: "Rp 700.000" }
@@ -18,3 +18,10 @@ collections:
           - { label: "Antam 2 Gram (Rp)", name: "antam_2g", widget: "string", default: "Rp 2.540.000" }
           - { label: "Antam 3 Gram (Rp)", name: "antam_3g", widget: "string", default: "Rp 3.780.000" }
           - { label: "Antam 5 Gram (Rp)", name: "antam_5g", widget: "string", default: "Rp 6.250.000" }
+          - { label: "Antam 10 Gram (Rp)", name: "antam_10g", widget: "string", default: "Rp 12.440.000" }
+          - { label: "Antam 25 Gram (Rp)", name: "antam_25g", widget: "string", default: "Rp 30.975.000" }
+          - { label: "Antam 50 Gram (Rp)", name: "antam_50g", widget: "string", default: "Rp 61.870.000" }
+          - { label: "Antam 100 Gram (Rp)", name: "antam_100g", widget: "string", default: "Rp 123.660.000" }
+          - { label: "Antam 250 Gram (Rp)", name: "antam_250g", widget: "string", default: "Rp 308.880.000" }
+          - { label: "Antam 500 Gram (Rp)", name: "antam_500g", widget: "string", default: "Rp 617.550.000" }
+          - { label: "Antam 1000 Gram / 1 Kg (Rp)", name: "antam_1000g", widget: "string", default: "Rp 1.235.000.000" }
